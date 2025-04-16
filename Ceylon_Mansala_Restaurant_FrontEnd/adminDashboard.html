@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .navbar {
+            background-color: #003366;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-bar input {
+            padding: 0.4rem 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+        }
+
+        .search-bar button {
+            padding: 0.45rem 1rem;
+            background-color: #ccc;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+
+        .search-bar button:hover {
+            background-color: #bbb;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-links .active {
+            background-color: #001f3f;
+        }
+
+        main {
+            padding: 2rem;
+            min-height: calc(100vh - 80px);
+        }
+
+        .content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            min-height: 300px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .nav-right {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .search-bar {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+
+            .search-bar input {
+                flex: 1;
+                width: 70%;
+            }
+
+            .search-bar button {
+                width: 30%;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo">Cafe Vista</div>
+        <div class="nav-right">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Enter Keyword to search" />
+                <button onclick="validateSearch()">Search</button>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="active">Dashboard</a>
+                <a href="#">Post Category</a>
+                <a href="#">Reservation</a>
+                <a href="#">Logout</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="content">
+        <!-- Page content goes here -->
+    </div>
+</main>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
