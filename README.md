@@ -15,16 +15,16 @@ This application is structured with a frontend interface for customer interactio
 > _Add the actual image files in your project’s `assets/screenshots` folder and link them here._
 
 ### 🔹 Home Page
-![Home Page](assets/screenshots/home.png)
+![Home Page](dashboard.png)
 
 ### 🔹 Admin Dashboard
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](Screenshot2025-04-20224637.png)
 
 ### 🔹 Menu Management
-![Menu Management](assets/screenshots/menu-management.png)
+![Menu Management](Screenshot2025-04-20224731.png)
 
 ### 🔹 Reservation Form
-![Reservation Form](assets/screenshots/reservation-form.png)
+![Reservation Form](Screenshot2025-04-20221145.png)
 
 ---
 🎥 Demo Video
