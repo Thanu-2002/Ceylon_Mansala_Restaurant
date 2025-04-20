@@ -1,54 +1,41 @@
 package com.example.Ceylon_Mansala_Restaurant_Spring.dto;
 
-import com.example.Ceylon_Mansala_Restaurant_Spring.enums.UserRole;
 
+import com.example.Ceylon_Mansala_Restaurant_Spring.entity.Reservation;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+import java.util.List;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserDTO {
+
     private Long id;
     private String name;
     private String email;
     private String password;
+    private Long tel;
+    private String role;
+    private List<Reservation> reservationList;
 
-    private UserRole userRole;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
+    public UserDTO(String name, String email, String password, Long tel, String role,  List<Reservation> reservationList) {
         this.name = name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
         this.password = password;
+        this.tel = tel;
+        this.role = role;
+        this.reservationList = reservationList;
     }
 
-    public UserRole getUserRole() {
-        return userRole;
-    }
-
-    public void setUserRole(UserRole userRole) {
-        this.userRole = userRole;
+    public UserDTO(Long id, String name, String email, String password, Long tel, String role) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.tel = tel;
+        this.role = role;
     }
 }
