@@ -56,12 +56,14 @@ Follow the steps below to install, configure, and run both the frontend and back
    git clone https://github.com/your-username/ceylon-mansala-restaurant.git
    cd ceylon-mansala-restaurant/backend
 
-2.Install dependencies
-    npm install
-3.Configure Environment
-    Create a .env file and add required environment variables (e.g., DB connection strings, PORT).
-4.Run the server
-    npm start
+2.Install dependencies.
+   - npm install
+    
+3.Configure Environment.
+   - Create a .env file and add required environment variables (e.g., DB connection strings, PORT).
+    
+4.Run the server.
+   - npm start
 
 🖥️ Frontend Setup
 
