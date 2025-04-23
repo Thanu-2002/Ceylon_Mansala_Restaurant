@@ -5,12 +5,13 @@
 **Ceylon Mansala Food Restaurant** is a web-based Restaurant Management System designed to streamline day-to-day operations such as managing food menus, processing customer orders, handling reservations, and billing. The system enhances the dining experience for customers while making administrative tasks easier for restaurant staff and the owner.
 
 This application is structured with a frontend interface for customer interaction and a backend dashboard for administrative control. It allows:
+
 - Customers to browse the menu, place orders, and make reservations.
 - Admin users to manage the menu, monitor orders, oversee reservations, and handle customer interactions.
 
 ---
 
-## 🖼️ Screenshots
+## 📸 Screenshots
 
 > _Add the actual image files in your project’s `assets/screenshots` folder and link them here._
 
@@ -27,23 +28,35 @@ This application is structured with a frontend interface for customer interactio
 ![Reservation Form](Screenshot2025-04-20221145.png)
 
 ---
-🎥 Demo Video
-👉 Watch the Demo Video
 
-Video Name Format: Ceylon_Mansala_Food_Restaurant_Demo.mp4
+## 📽️ Demonstration Video
 
-🛠️ Tech Stack
+🎬 Watch the full demo here:  
+👉 [](#)
 
-Frontend: HTML, CSS, JavaScript, Bootstrap
-Backend: SpringBoot
-Database: MySQL (update depending on your stack)
-Other Tools: Git, Postman (for API testing), VS Code
+---
+🛠️ Technology Stack
+---
 
-🔐 Security
-✅ JWT (or session-based) authentication (if implemented)
-🔐 User-subscription access control for movies
-📧 (Optional) Notification system for updates
+##🔧 Backend
 
+      ☕ Java 17 with Spring Boot.
+      
+      🔒 Spring Security with JWT Authentication.
+      
+      🗄️ Spring Data JPA.
+      
+      📊 MySQL Database.
+
+##🎨 Frontend
+
+      🌐 HTML5, CSS3, JavaScript.
+      
+      📱 Responsive Design for both mobile and desktop.
+      
+      🔄 jQuery for dynamic DOM manipulation and AJAX requests.
+
+   ---
 
 ## ⚙️ Setup Instructions
 
@@ -65,6 +78,8 @@ Follow the steps below to install, configure, and run both the frontend and back
 4.Run the server.
    - npm start
 
+---
+
 🖥️ Frontend Setup
 
 1.Navigate to the frontend directory
@@ -77,6 +92,7 @@ Follow the steps below to install, configure, and run both the frontend and back
     npm run dev
 
 🤝 Contributing
+
 Feel free to fork this repository and make contributions! Pull requests are welcome.
 
 
