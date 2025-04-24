@@ -32,7 +32,7 @@ This application is structured with a frontend interface for customer interactio
 ## 📽️ Demonstration Video
 
 🎬 Watch the full demo here:  
-👉 [](#)
+👉 [https://youtu.be/FCrCBWz7lRo?si=YkBPwvexvonOFuNO](#)
 
 ---
 🛠️ Technology Stack
